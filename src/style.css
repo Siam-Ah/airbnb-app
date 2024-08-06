@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     box-sizing: border-box;
 }
@@ -7,24 +8,12 @@ body {
     font-family: 'Poppins';
 }
 
+/* Layout and Containers */
 .navbar {
     height: 70px;
     display: flex;
     padding: 20px 36px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1)
-}
-
-.gray {
-    color: #91839B
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.navbar--airbnbPhoto {
-    height: 25.35px;
-    width: 82.02px;
 }
 
 section {
@@ -47,6 +36,12 @@ section {
 
 .main--text {
     margin-top: 0;
+}
+
+/* Component Styles */
+.navbar--airbnbPhoto {
+    height: 25.35px;
+    width: 82.02px;
 }
 
 .card {
@@ -96,5 +91,14 @@ section {
     background-color: white;
     padding: 5px 7px;
     border-radius: 5px 7px;
+    font-weight: bold;
+}
+
+/* Utility Classes */
+.gray {
+    color: #91839B
+}
+
+.bold {
     font-weight: bold;
 }

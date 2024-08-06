@@ -1,6 +1,7 @@
 import React from "react"
 import photoGrid from "../images/photo-grid.png"
 
+// Component that displays the main introductory section
 export default function Main() {
     return (
         <section className="main">

@@ -1,9 +1,11 @@
 import React from "react"
 import star from "../images/star.png"
 
-
+// Component that displays individual card information
 export default function Card(props) {
     let badgeText
+
+    // Sets badge text based on availability and location
     if (props.data.openSpots === 0) {
         badgeText="SOLD OUT"
     } else if (props.data.location === "Online") {
